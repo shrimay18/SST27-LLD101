@@ -4,4 +4,9 @@ public class Frame {
     { 
         this.data=d; 
     } 
+
+    public byte[] getData() 
+    { 
+        return data; 
+    }
 }
