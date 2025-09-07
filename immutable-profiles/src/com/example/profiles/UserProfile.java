@@ -48,6 +48,10 @@ public class UserProfile {
             this.email = email;
         }
 
+        public Builder() {
+            //TODO Auto-generated constructor stub
+        }
+
         public Builder email(String email) {
             this.email = email;
             return this;
@@ -92,6 +96,11 @@ public class UserProfile {
             }
             
             return new UserProfile(this);
+        }
+
+        public Builder id(String id2) {
+            // TODO Auto-generated method stub
+            throw new UnsupportedOperationException("Unimplemented method 'id'");
         }
     }
 

@@ -42,6 +42,7 @@ public final class UserProfile {
         private String twitter;
         private String github;
 
+
         public Builder id(String id) { this.id = id; return this; }
         public Builder email(String email) { this.email = email; return this; }
         public Builder phone(String phone) { this.phone = phone; return this; }
