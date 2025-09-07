@@ -1,0 +1,6 @@
+id,email,displayName
+1,john@example.com,John
+2,invalidemail,Jane
+3,,MissingEmail
+,emptyid@example.com,NoID
+4,sara@example.com,Sara
